@@ -9,7 +9,7 @@ body{
 header{
     padding: 0px 5px;
     width:75%;
-    background-color:whitesmoke;
+    background-color:#eee;
 }
 td{
     vertical-align: top;
@@ -32,3 +32,28 @@ td{
     border-style:hidden hidden hidden solid;
     border-width: medium;
 }
+.title-col{
+    font-weight: bold;
+    color: steelblue;
+}
+
+blockquote {
+    width:50%;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
